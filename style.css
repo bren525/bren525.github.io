@@ -26,6 +26,7 @@ p{
 
 }
 #exps img{
+	border-radius: 8%;
 	display: inline-block;
 	width: 15%;
 	background-repeat: no-repeat;
