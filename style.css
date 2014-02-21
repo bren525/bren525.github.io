@@ -25,9 +25,39 @@ p{
 	text-align: center;
 
 }
-#exps img{
-	border-radius: 8%;
+
+#Me{
+	width:30%;
+	float: left;
+	margin-right: 25px;
+}
+.picLabel{
+	position: relative;
 	display: inline-block;
 	width: 15%;
+}
+.picLabel img{
+	border-radius: 8%;
 	background-repeat: no-repeat;
+	position: absolute;
+	width: 100%;
+	top:0;
+	left:0;
+}
+.picLabel h3{
+	position: absolute;
+	top:0;
+	left:1em;
+
+}
+.picLabel p{
+	position: absolute;
+	width: 100%;
+	top:4em;
+	left:0;
+	font-size: 1em;
+	
+}
+.hidden {
+	visibility: hidden;
 }
