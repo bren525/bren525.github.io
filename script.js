@@ -21,7 +21,7 @@ $(document).ready(function(){
 		$(this).attr("src","http://dummyimage.com/1100x1100");
 		$(".t3").toggleClass("hidden");
 	}, function(){
-		$(this).attr("src","GhostFiddle.jpg");
+		$(this).attr("src","PipelinedZoom.png");
 		$(".t3").toggleClass("hidden");
 	}).click(function(){
 			

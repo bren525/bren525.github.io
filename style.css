@@ -34,29 +34,23 @@ p{
 .picLabel{
 	position: relative;
 	display: inline-block;
-	width: 15%;
 }
 .picLabel img{
+	width: 350px;
 	border-radius: 8%;
 	background-repeat: no-repeat;
-	position: absolute;
-	width: 100%;
-	top:0;
-	left:0;
 }
 .picLabel h3{
 	position: absolute;
-	top:0;
-	left:1em;
-
+	font-size: 2.2em;
+	margin-top: -9.8em;
+	margin-left: .4em;
 }
 .picLabel p{
 	position: absolute;
-	width: 100%;
-	top:4em;
-	left:0;
-	font-size: 1em;
-	
+	font-size: 2em;
+	margin-top: -5em;
+	margin-left: 2em;
 }
 .hidden {
 	visibility: hidden;
