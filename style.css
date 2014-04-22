@@ -1,15 +1,49 @@
+#bio {
+	background-color: #612463;
+	height: 100vh;
+}
+#proj {
+	background-color: #223355;
+	height: 100vh;
+	padding-top: 3em;
+}
+#contact{
+	background-color: #2BB355;
+	height: 100vh;
+
+}
 #banner {
 	display: block;
 	width: 50%;
 	margin-left: auto;
 	margin-right: auto;
 }
+#nav{
+	display: float;
+	position: fixed;
+	background-color: #555555;
+	width: 10%;
+	height: 100vh;
+	list-style: none;
+	margin-top: 0;
+	font-size: 100%;
+}
+#nav li{
+	margin-top: .5em;
+	margin-bottom: .5em;
+	text-align: left;
+	margin-left: -.7em;
+	font-size: 200%;
+
+}
+
 h2{
 	width: 65%;
 	margin-left: auto;
 	margin-right: auto;
-	font-size: 2em;
-	margin-bottom: .25em;
+	font-size: 3em;
+	margin-bottom: 1em;
+	text-align: center;
 }
 p{
 	width: 60%;
@@ -48,10 +82,20 @@ p{
 }
 .picLabel p{
 	position: absolute;
-	font-size: 2em;
-	margin-top: -5em;
+	font-size: 1em;
+	margin-top: -7em;
 	margin-left: 2em;
 }
+
+.projDescription{
+	display: inline-block;
+	float: left;
+	height: 0;
+	width: 0;
+	background-color: #EEEFFF;
+}
+
+
 .hidden {
 	visibility: hidden;
 }
