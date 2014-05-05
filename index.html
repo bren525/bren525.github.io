@@ -12,7 +12,9 @@
 	<ul id = "nav">
 		<li name="bio">Home</li>
 		<li name="proj">Projects</li>
-		<li name="contact">Contact</li>
+		<li id="resume" name="resume">Resume</li>
+		<li name="contact" class="hidden">Contact</li>
+		
 	</ul>
 
 	<body>
@@ -21,7 +23,7 @@
 			<h2> Bio </h2>
 			<p>
 				<img id="Me" src="AlaskaMe.jpg"/>
-				Stuff about me that is really coool and interesting. But it also has to be pretty short liek maybe 4-5 sentences. This is the third sentence of my bio. And here is the fourth, maybe it should be a bit longer. And onto the fifth, also needs to be fairly long to simulate what it will actually look like, maybe this is a good amount.
+				Hi I'm Brendan, a rising junior here at Olin College. Computers are the focus of my studies, my goal being to understand every level of their technology. My journey has gained me extensive experience in software development including, iOS with Objective C, Java applications, and Python projects. Recently I've gained experience with C and kernel level programming. I also have deep fascination with computer architecture, an area I want to explore more. Check out my projects and feel free to contact me!
 			</p>
 			
 		</div>
@@ -35,25 +37,21 @@
 				</div>
 				<div id = "des1" class="projDescription hidden">
 					<h2>Ghost Fiddle</h2>
-					<ul>
-						<li>Home</li>
-						<li>Projects</li>
-						<li>Contact</li>
-					</ul>
+					<p>
+						My teammates and I built a webapp controlled robotic glass hard. Our mechanical set-up involved spinning moist foam brushes over the rims of our 8 wine glasses. We controlled our motors using a Raspberry Pi that served a raphael.js based webapp which allowed users to input custom or preloaded songs and send them to our glass hap to be played. 
+					</p>
 
 				</div>
 				<div id = "proj2" name="2" class="picLabel">
 					<img id="exp2" src="GA.jpg"/>
-					<h3 id="exp2title" class = "t2">Genetic Pred-Prey</h3>
+					<h3 id="exp2title" class = "t2">Genetic Algorithm</h3>
 					<p id="exp2p" class = "t2 hidden"> A coevolving predator-prey simulation</p>
 				</div>
 				<div id = "des2" class="projDescription hidden">
 					<h2>Genetic Algorithms: Predator-Prey Simulation</h2>
-					<ul>
-						<li>Home</li>
-						<li>Projects</li>
-						<li>Contact</li>
-					</ul>
+					<p>
+						This exploration of genetic algorithms began with a simple problem. A predator and prey are pitted against each other, the predator is faster but less agile and its goal is to catch the prey, while the prey's goal is to escape. Our goal is to find an ideal force vector function for each actor based on its own and the other's positions. In Python, a team of 3 and I constructed the pred-prey simulation and then applied a genetic algorithm to solve for these force vector functions.
+					</p>
 
 				</div>
 				<div id = "proj3" name="3" class="picLabel">
@@ -63,15 +61,13 @@
 				</div>
 				<div id = "des3" class="projDescription hidden">
 					<h2>MIPS Pipeline CPU</h2>
-					<ul>
-						<li>Fully functioning processor simulation</li>
-						<li>Features data forwarding</li>
-						<li>Uses two-bit branch prediction</li>
-					</ul>
+					<p>
+						Me and two teammates built a fully functioning MIPS compliant 5-stage pipeline CPU in Verilog. It featured data forwarding as well 2-bit branch prediction. We were able to successfully run user assembly code that made full use of our instruction set and hazard avoidance capabilities.
+					</p>
 				</div>
 			</div>
 		</div>
-		<div id="contact">
+		<div id="contact" class = "hidden">
 
 		</div>
 	</body>

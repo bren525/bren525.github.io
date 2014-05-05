@@ -29,9 +29,12 @@ $(document).ready(function(){
 			
 	});
 	$("#nav li").click(function(){
-		var loc = "#" + $(this).attr('name');
-		console.log(loc);
-		$(document.body).animate({'scrollTop':$(loc).offset().top}, 300); 
+		if($(this).attr('name')=='resume'){
+			window.open('BrendanCaporalettiResume10_13.pdf');
+		}else{
+			var loc = "#" + $(this).attr('name');
+			console.log(loc);
+			$(document.body).animate({'scrollTop':$(loc).offset().top}, 300); 
+		}	
 	});
-
 });
